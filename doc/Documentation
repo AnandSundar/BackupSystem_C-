@@ -1,0 +1,14 @@
+phase 3
+
+Designed and implementd gtk interface according to specification.
+
+FUNCTIONALITY:
+
+directory back up works but does not ask user before overwriting the folder
+eg: when the directory already exists, you will be asked for comfirmation in the terminal. until you enter Y/N the 
+program wont start the backup process.
+
+program uses global variables to store the source and destination path.
+
+The progress bar starts after backing up is done.
+
