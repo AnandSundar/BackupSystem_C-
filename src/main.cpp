@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) //command line arguments
    bool perflag; // permission flag
    if(argc == 1) //no arguments supplied
    {
-      cout<<"Do you want to use GTK? Y/N"<<endl;
+      cout<<"Do you want to use GTK(GUI)? Y/N"<<endl;
       char inp;
       cin>>inp;
       inp = tolower(inp);
